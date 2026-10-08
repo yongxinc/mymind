@@ -1,0 +1,23 @@
+# secrets
+.env
+google_credentials.json
+google_token.json
+.oauth_state
+
+# personal data / local state
+backend/chroma_db/
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# node
+node_modules/
+frontend/dist/
+
+# os / editor
+.DS_Store
+.idea/
+.vscode/
